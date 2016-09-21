@@ -73,6 +73,7 @@
 					html += ["<td class='cell'>", ex.manufactory, "</td>"].join("");
 					html += ["<td class='cell'>", ex.device_odel, "</td>"].join("");
 					html += ["<td class='cell'>", ex.app_package, "</td>"].join("");
+					html += ["<td class='cell'>", ex.ap_version, "</td>"].join("");
 					html += "</tr>";
 					$(html).click(function() {
 						$('#detail_' + ex.uid).toggle('fast') ;
@@ -145,6 +146,7 @@
 	<td>Manufactory</td>
 	<td>DeviceModel</td>
 	<td>AppPackage</td>
+	<td>版本</td>
 </thead>
 
 <tbody id="content">
